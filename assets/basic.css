@@ -16,6 +16,7 @@
 
 .navigation .button:hover {
     background-color:rgb(41, 41, 41) ;
+    font-size: 17px;
 }
 
 .navigation .home {
@@ -26,11 +27,12 @@
     text-align: center;
     border: none;
     padding: 24px 30px;
-    font-size: 19px;
+    font-size: 17px;
 }
 
 .navigation .home:hover {
     background-color: #6b7c30 ;
+    font-size: 19px;
 }
 
 .navigation button:hover {
