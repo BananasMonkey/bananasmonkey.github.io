@@ -22,7 +22,6 @@
 }
 
 body {
-
     margin: 0;
     animation-name: bodyColor;
     animation-direction: alternate;
@@ -48,7 +47,7 @@ body {
     min-width: 25%;
     max-width: 50%;
     text-align: left;
-    padding: 1px 8px;
+    padding:  8px 8px;
 }
 
 .textArea h1 {
@@ -64,4 +63,14 @@ body {
 
 .textArea .center {
     text-align: center;
+}
+
+.fancyButton {
+    background-color: #221e2e;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 10px;
+    font-size: 40px;
+    cursor: pointer;
+    width: 33%;
 }
