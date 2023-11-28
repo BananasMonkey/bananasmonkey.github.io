@@ -1,8 +1,7 @@
-* {
-    font-family: 'Playfair Display', serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
 
 .navigation {
+    font-family: 'Josefin Sans', sans-serif;
     overflow: hidden;
     background-color: #221e2e;
 }
@@ -23,6 +22,7 @@
 }
 
 body {
+
     margin: 0;
     animation-name: bodyColor;
     animation-direction: alternate;
@@ -39,6 +39,7 @@ body {
 }
 
 .textArea {
+    font-family: 'Josefin Sans', sans-serif;
     margin: auto;
     border-radius: 5px;
     border-width: 1px;
@@ -59,4 +60,8 @@ body {
     height: 5px;
     border: none;
     border-radius: 4px;
+}
+
+.textArea .center {
+    text-align: center;
 }
